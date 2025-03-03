@@ -24,8 +24,8 @@ const Home = () => {
 
     return (
         <>
-            <div className='banner'>
-            </div>
+            {/* <div className='banner'>
+            </div> */}
             <div className="product-grid">
                 {products.map((item) => (
                     <div key={item.id} className="product-card">

@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[55214],{
+
+/***/ 115388:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(813110);__web_req__(38266);__web_req__(452937);__web_req__(907958);self._5880d4398c473aa67256e87589eaef11 = self._5880d4398c473aa67256e87589eaef11 || {};(function(__c) {var Mui=__webpack_require__(443763).jsx;var Nui=__webpack_require__(875604).memo;__c.mVa={oZd:function({G:a,cj:b,ea:c,$z:d,Ab:e,mh:f,THa:g,XF:h,oL:k,Link:l,Gq:n,Jn:p,rn:q}){({Mn:q}=q(__c.nL));const {Pob:u}=__c.ORf({G:a,ea:c,$z:d,Ab:e,mh:f,XF:h,oL:k,Link:l,Gq:n,Mn:q,Jn:p});c=Nui(({model:w})=>{const {tra:y,ura:z}=__c.Cwe();null===g||void 0===g?void 0:g();return Mui(u,{...w,breadcrumbs:w.Ev,tra:y,ura:z})});return{IHd:__c.OK("TEMPLATES_CATEGORY",a,b)(c)}}};
+}).call(self, self._5880d4398c473aa67256e87589eaef11);}
+
+}])
+//# sourceMappingURL=sourcemaps/572989818bdf8098.js.map

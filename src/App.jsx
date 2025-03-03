@@ -6,7 +6,6 @@ import Footer from './Components/Footer'
 import Home from './Components/Home'
 import Cart from './Components/Cart'
 import { Atom, LifeLine } from 'react-loading-indicators';
-import Login from './Login'
 
 
 
@@ -41,7 +40,6 @@ function App() {
     <Route>
       <Route path='/' element={<Layout />} >
         <Route index element={<Home />}></Route>
-        <Route path='/Login' element={<Login />}></Route>
         <Route path='/Cart' element={<Cart />}></Route>
       </Route>
     </Route>

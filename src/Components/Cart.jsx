@@ -1,15 +1,9 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { clear, decrement, deletee, increment, plus, mines, rest } from '../appSlice';
+import { clear, decrement, deletee, increment, } from '../appSlice';
 
 const Cart = () => {
     const products = useSelector((state) => state.counterReducer.Products);
-    // const dd = useSelector((state) => state.counterReducer.value);
-    const en = useSelector((state) => state.counterReducer.comment); // جلب التعليقات
-    // const todoss = useSelector((state) => state.counterReducer.todo);
-    // const todos = useSelector((state) => state.counterReducer.ARCHIVE);
-
-
     const dispatch = useDispatch();
 
     return (
@@ -33,21 +27,6 @@ const Cart = () => {
                             </div>
 
                             <span className='totalprice'>Total Price: ${item.quantity * item.price}</span>
-
-                            
-                            {/* ✅ عرض التعليق الخاص بالمنتج */}
-                            <div className="comment-section">
-                                <h4>Comment:</h4>
-                                <ul>
-                                    {en[item.id] && en[item.id].length > 0 ? (
-                                        en[item.id].map((comment, index) => (
-                                            <li key={index}>{comment} </li>
-                                        ))
-                                    ) : (
-                                        <li>No comment available</li>
-                                    )}
-                                </ul>
-                            </div>
 
                         </div>
                     ))}

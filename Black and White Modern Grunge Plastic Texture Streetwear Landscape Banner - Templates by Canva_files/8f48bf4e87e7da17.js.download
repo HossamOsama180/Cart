@@ -1,0 +1,10 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[68377],{
+
+/***/ 544279:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(813110);self._5880d4398c473aa67256e87589eaef11 = self._5880d4398c473aa67256e87589eaef11 || {};(function(__c) {var a8b;a8b=function(a,b){return $7b.toArray(Array.from(b,(c,d)=>{if(c instanceof Element){const f=a8b(a,c.childNodes),g=a.fea.get(c.tagName.toUpperCase());if(g)try{return g(c,f,d)}catch(h){var e;null===(e=a.onError)||void 0===e?void 0:e.call(a,h)}return f}if(c instanceof Text)return c.textContent}))};__c.Yz=function(a,b,c){a.fea.set(b.toUpperCase(),c);return a};__c.b8b=__c.E(()=>({userId:__c.Q(1)}));__c.c8b=__c.E(()=>({Fsb:__c.A(1,__c.b8b)}));
+__c.Di.prototype.f2=__c.ia(61,async function(a,b){const c=b&&b.T&&this.L&&this.L.vf("clearuserbatch.http_client",b.T);b=__c.xh(__c.vh([__c.hi,"clearUserBatch"]));const d={tracing:c&&{T:c},Ra:"clearuserbatch"},[e,{Awd:f}]=await Promise.all([this.va.post(b,__c.c8b.serialize(a),d).catch(g=>{c&&c.end("error",new Map([["error_type","http_request"]]));throw g;}),__webpack_require__.me(838378).then(()=>({Awd:__c.d8b})).catch(g=>{c&&c.end("error",new Map([["error_type","dynamic_import"]]));throw g;})]);a=
+f.deserialize(e);c&&c.end();return a});__c.Ei.prototype.f2=__c.ia(60,function(a,b){return this.MG.f2(a,b)});__c.Ci.prototype.f2=__c.ia(59,function(a,b){return this.MG.f2(a,b)});var $7b=__webpack_require__(875604).Children;__c.Zz=class{render(a){return a8b(this,this.KAe.parseFromString(a,"text/html").body.childNodes)}constructor(a){this.onError=a;this.fea=new Map;this.KAe=new DOMParser}};
+}).call(self, self._5880d4398c473aa67256e87589eaef11);}
+
+}])
+//# sourceMappingURL=sourcemaps/8f48bf4e87e7da17.js.map

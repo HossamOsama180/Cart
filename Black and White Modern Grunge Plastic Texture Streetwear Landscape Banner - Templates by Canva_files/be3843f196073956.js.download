@@ -1,0 +1,10 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[25340],{
+
+/***/ 556210:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(813110);__web_req__(6534);__web_req__(61128);self._5880d4398c473aa67256e87589eaef11 = self._5880d4398c473aa67256e87589eaef11 || {};(function(__c) {var fs=__c.fs;var Fq=__c.Fq;var Sq=__c.Sq;var Mub,Nub,Oub,Pub,Qub,Rub,Sub;__c.Kub=function(a){var b=a.options;const c=a.Hr;b=c&&b.find(e=>(null===e||void 0===e?void 0:e.id)===c)||b.find(e=>e);var d;return{...a,text:null!==(d=null===b||void 0===b?void 0:b.label)&&void 0!==d?d:""}};__c.Lub=function({text:a,...b}){__c.sa(a,__c.Kub(b).text,"Value to unmap is not a derived select pill state");return b};Mub=Sq({values:{type:Fq("embed")},attributes:{text:fs,url:fs}});
+Nub=__c.Hq({day:__c.$r,month:__c.$r,year:__c.$r});Oub=Sq({values:{type:Fq("date")},attributes:{text:fs,language:fs,style:__c.Nq(Fq(1,2,3,4,5)),date:__c.Nq(Nub)}});Pub=Sq({values:{type:Fq("mention")},attributes:{text:fs,user:fs,brand:fs}});Qub=Sq({values:{id:__c.Zr},attributes:{label:fs},Xb:{fill:__c.As}});Rub=__c.Uq(Qub);
+Sub=Sq({values:{type:Fq("select")},attributes:{Hr:__c.ls},Xb:{options:Rub}}).map(a=>a,a=>a,__c.Kub,__c.Lub,function(a){return Object.create(a,{text:{get(){var b=a.options;const c=a.Hr;b=c&&b.first(({id:e})=>e===c)||b.first();var d;return null!==(d=null===b||void 0===b?void 0:b.label)&&void 0!==d?d:""}}})},a=>a);__c.Tub=__c.hr({embed:Mub,date:Oub,mention:Pub,select:Sub},a=>a.type,a=>a.type);
+}).call(self, self._5880d4398c473aa67256e87589eaef11);}
+
+}])
+//# sourceMappingURL=sourcemaps/be3843f196073956.js.map

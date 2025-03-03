@@ -1,13 +1,11 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addtocart,  enterr } from '../appSlice';
+import { addtocart } from '../appSlice';
 
 
 const Home = () => {
     const [products, setProducts] = useState([])
-    const [inputValues, setInputValues] = useState({})
-
     const dispatch = useDispatch();
 
     // fetch data
@@ -24,29 +22,10 @@ const Home = () => {
     }, []);
 
 
-    const handleInputChange = (id, value) => {
-        setInputValues((inputValues) => ({
-            ...inputValues,
-            [id]: value, 
-        }));
-    };
-
-    const handleSubmit = (id) => {
-        if (inputValues[id]) {
-            dispatch(enterr({ id, comment: inputValues[id] }));
-            setInputValues((prev) => ({ ...prev, [id]: "" }));
-        }
-    };
-
-
-
-
-
     return (
         <>
             <div className='banner'>
             </div>
-
             <div className="product-grid">
                 {products.map((item) => (
                     <div key={item.id} className="product-card">
@@ -62,23 +41,6 @@ const Home = () => {
                             desc: item.description,
                             quantity: 1
                         }))}>add to cart</button>
-
-                        <input
-                            type="text"
-                            value={inputValues[item.id] || ""}
-                            onChange={(e) => handleInputChange(item.id, e.target.value)}
-                            placeholder="Enter your comment"
-                        />
-
-                        <button
-                            type="submit"
-                            onClick={() => handleSubmit(item.id)}
-                        >
-                            Submit
-                        </button>
-                        <br /> <br />
-
-
                     </div>
                 ))}
             </div>
